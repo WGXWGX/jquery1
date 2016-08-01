@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+	<meta charset="UTF-8">
+</head>
+	<style>
+		table{
+			border:1px solid black;
+			border-collapse:collapse;
+			height: 200px;
+			width:400px;
+		}
+		/*.select{
+			background: red;
+		}*/
+		.td{
+			width: 200px;
+			font-size: 12px;
+		}
+		.thead{
+			text-align: center;
+			font-size: 16px;
+		}
+	</style>
+<body>
+	<table border="1">
+		<tr  class="thead">
+			<td colspan="2">鼠标点击表格就可以编辑</td>
+		</tr>
+		<tr class="select">
+			<td>学号</td>
+			<td>姓名</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td class="td">马云</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td class="td">马一</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td class="td">马二</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td class="td">马三</td>
+		</tr>
+
+	</table>
+	<script src="../jquery-1.12.4.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
