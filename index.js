@@ -13,12 +13,6 @@ $(function(){
 			background: 'red'
 		});
 		$(this).empty().append($input);
-		//console.log(this.innerHTML);
 		$input.trigger('select');
-		// if($td.children('input').length > 0){
-		// 	return false;
-		// }
 	});
-	
-
 });
